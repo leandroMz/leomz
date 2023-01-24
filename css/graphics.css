@@ -1,0 +1,41 @@
+/* SWEETFORM */
+
+.swal-button {
+    border-color: var(--botton-nav-active);
+    background-color: var(--botton-nav);
+    box-shadow: 2px 2px 5px var(--text02);    
+    font-family: 'Schoolbell', cursive;
+    font-size: 1rem;
+    border-radius: 0.6rem;
+    padding: 0.2rem 0.5rem;
+  } 
+
+  .swal-overlay {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .swal-title{
+    font-family: 'Schoolbell', cursive;
+    color: var(--paragraph);
+
+  }
+  .swal-text {    
+    font-family: 'Schoolbell', cursive;
+    color: var(--paragraph);
+  }
+  .swal-modal {
+    background-color: rgba(26, 24, 24, 0.9);
+    border: 3px solid rgb(2, 2, 2);    
+  }
+
+  .swal-icon{
+    border-color: var(--paragraph);
+    background: white;
+       
+  }
+
+  .swal-icon--success__hide-corners {           
+    background: none !important;}
+    .swal-icon--success:before,
+    .swal-icon--success:after {
+    background: none !important;    
+    }
